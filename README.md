@@ -3,7 +3,7 @@
 ![Hero](assets/hero.svg)
 
 ## About Me
-I am a Junior Full Stack Developer focused on automating processes and building seamless integrations. I develop scalable applications with React and TypeScript on the frontend and NestJS, Prisma, and Node.js on the backend, while orchestrating workflows with n8n and deploying via Docker and Jenkins. My work bridges development and infrastructure to deliver reliable, maintainable solutions.
+I am a Junior Full Stack Developer focused on automating processes and building seamless integrations. I develop applications with React and TypeScript on the frontend and NestJS, Prisma, and Node.js on the backend, while orchestrating workflows with n8n and deploying via Docker and Jenkins. My work bridges development and infrastructure to deliver reliable, maintainable solutions.
 
 ## Tech Stack
 
@@ -17,16 +17,12 @@ I am a Junior Full Stack Developer focused on automating processes and building 
 <img src="https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" alt="Node.js">
 <img src="https://img.shields.io/badge/-NestJS-E0234E?logo=nestjs&logoColor=white&style=for-the-badge" alt="NestJS">
 <img src="https://img.shields.io/badge/-Prisma-2D3748?logo=prisma&logoColor=white&style=for-the-badge" alt="Prisma">
-<img src="https://img.shields.io/badge/-Express.js-000000?logo=express&logoColor=white&style=for-the-badge" alt="Express">
 
 ### Databases
 <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" alt="PostgreSQL">
-<img src="https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL">
-<img src="https://img.shields.io/badge/-SQL%20Server-CC2927?logo=microsoft-sql-server&logoColor=white&style=for-the-badge" alt="SQL Server">
 
 ### Automation & Integrations
 <img src="https://img.shields.io/badge/-n8n-00A6FB?logo=n8n&logoColor=white&style=for-the-badge" alt="n8n">
-<img src="https://img.shields.io/badge/-AI%20Integrations-FF6F00?logo=google-cloud&logoColor=white&style=for-the-badge" alt="AI">
 <img src="https://img.shields.io/badge/-REST%20API-000000?logo=api&logoColor=white&style=for-the-badge" alt="REST API">
 
 ### DevOps
@@ -37,13 +33,13 @@ I am a Junior Full Stack Developer focused on automating processes and building 
 
 ### Infrastructure
 <img src="https://img.shields.io/badge/-Proxmox-EE4C2C?logo=proxmox&logoColor=white&style=for-the-badge" alt="Proxmox">
-<img src="https://img.shields.io/badge/-Virtualization-764ABC?logo=virtualbox&logoColor=white&style=for-the-badge" alt="Virtualization">
-<img src="https://img.shields.io/badge/-Networking-008CBA?logo=cisco&logoColor=white&style=for-the-badge" alt="Networking">
+<img src="https://img.shields.io/badge/-Virtualization-764ABC?style=for-the-badge" alt="Virtualization">
+<img src="https://img.shields.io/badge/-Networking-008CBA?style=for-the-badge" alt="Networking">
 
 ## What I Build
-- **Full Stack Development** – End‑to‑end web applications with React/Vue, Node/NestJS, and relational databases.
-- **Process Automation** – Workflow automation using n8n, API orchestration, and AI‑enhanced service integrations.
-- **API & AI Integrations** – Design and consumption of REST/GraphQL APIs, LLM prompts, and vector search services.
+- **Full Stack Development** – End‑to‑end web applications with React, Node/NestJS, and relational databases.
+- **Process Automation** – Workflow automation using n8n and API orchestration.
+- **API Integrations** – Design and consumption of REST APIs.
 - **DevOps & Infrastructure** – Containerization with Docker, CI pipelines via Jenkins, Linux administration, and virtualization with Proxmox.
 
 ## Featured Projects
