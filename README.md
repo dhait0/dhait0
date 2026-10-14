@@ -2,15 +2,24 @@
 
 ![Hero](assets/hero.svg)
 
-## Desarrollador Full Stack Junior
+**Desarrollador Full Stack Junior**
+Automatización e integraciones de APIs y servicios de IA
 
-Soy Sebastián Camargo, desarrollador Full Stack Junior enfocado en el desarrollo web, la automatización de procesos empresariales y la integración de APIs y servicios de inteligencia artificial.
+Desarrollo aplicaciones, conecto servicios y automatizo procesos.
+
+Portafolio: https://www.parzkeys.com/
+GitHub: https://github.com/dhait0
+Contacto: mailto:sebascamargo39@gmail.com
+
+## Sobre mí
+
+Soy Sebastián Camargo, desarrollador Full Stack Junior enfocado en la automatización de procesos empresariales y la integración de APIs y servicios de inteligencia artificial.
 
 En VADEL S.A.S. participo en el desarrollo de funcionalidades frontend y backend, diseño y mantengo flujos de trabajo con n8n e integro servicios para conectar aplicaciones y apoyar procesos empresariales.
 
-Trabajo con React, TypeScript, Node.js, NestJS y Prisma, junto con bases de datos relacionales. También participo en pruebas, dockerización, despliegue e integración continua utilizando Git, Docker y Jenkins.
+Trabajo con React, TypeScript, Node.js, NestJS y Prisma, junto con bases de datos relacionales. También participo en pruebas, dockerización y despliegue con Git, Docker y Jenkins.
 
-Mi experiencia en soporte de TI, Linux, Proxmox, virtualización e infraestructura empresarial me ayuda a conectar el desarrollo de software con las necesidades operativas de las personas y los sistemas.
+Mi experiencia en soporte de TI, Linux, Proxmox y virtualización me ayuda a conectar el desarrollo de software con las necesidades operativas de las personas y los sistemas.
 
 ## Lo que desarrollo
 
