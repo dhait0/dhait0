@@ -28,10 +28,18 @@ Mi experiencia en soporte de TI, Linux, Proxmox y virtualización me ayuda a con
 
 ## Lo que desarrollo
 
-- **Desarrollo Full Stack** – Aplicaciones web completas con React/Next.js en el frontend y Node.js/NestJS con Prisma en el backend, usando bases de datos relacionales.
-- **Automatización de procesos** – Diseño y mantenimiento de flujos de trabajo con n8n, integración de APIs y orquestación de servicios.
-- **Integraciones de APIs e IA** – Consumo y diseño de APIs REST, integración de servicios de inteligencia artificial (LLMs, prompts, etc.).
-- **DevOps e infraestructura** – Containerización con Docker, pipelines CI/CD con Jenkins, administración de Linux, virtualización con Proxmox y gestión de redes.
+Desarrollo aplicaciones web, automatizo procesos con n8n, integro APIs
+y servicios de IA, y participo en el despliegue y la operación de aplicaciones.
+
+<picture>
+  <source
+    media="(max-width: 640px)"
+    srcset="assets/especialidades-mobile.svg">
+  <img
+    src="assets/especialidades.svg"
+    alt="Especialidades: desarrollo Full Stack, automatización de procesos, integración de APIs y servicios de IA, y DevOps e infraestructura."
+    width="1200">
+</picture>
 
 ## Proyectos destacados
 
