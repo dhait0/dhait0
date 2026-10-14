@@ -186,8 +186,8 @@ Demo bilingüe de Jenkins, Docker y Linux con pipeline CI/CD para un servicio Ty
     width="100%">
 </picture>
 
-[![Portafolio](https://img.shields.io/badge/Portafolio-171512?style=flat-square)](https://www.parzkeys.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-171512?style=flat-square)](https://github.com/dhait0)
-[![Email](https://img.shields.io/badge/Email-171512?style=flat-square)](mailto:sebascamargo39@gmail.com)
+[![Portafolio](https://img.shields.io/badge/Portafolio-D97745?style=flat-square)](https://www.parzkeys.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-E8A06A?style=flat-square)](https://github.com/dhait0)
+[![Email](https://img.shields.io/badge/Email-F2C078?style=flat-square)](mailto:sebascamargo39@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-171512?style=flat-square)](https://linkedin.com/in/sebascamargo)
 [![Instagram](https://img.shields.io/badge/Instagram-171512?style=flat-square)](https://instagram.com/no4uth_keys)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-171512?style=flat-square)](https://www.linkedin.com/in/sebastian-camargo-a823b6322)
