@@ -186,11 +186,8 @@ Demo bilingüe de Jenkins, Docker y Linux con pipeline CI/CD para un servicio Ty
     width="100%">
 </picture>
 
-[![Website](https://img.shields.io/badge/ParzKeys-00FFFF?style=flat-square&logo=google-chrome&logoColor=000000)](https://www.parzkeys.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=22D3EE)](https://github.com/dhait0)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=00A4E4)](mailto:sebascamargo39@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=772424)](https://instagram.com/no4uth_keys)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=0077B5)](https://www.linkedin.com/in/sebastian-camargo-a823b6322)
-
----
-*Hecho con ❤️ y ☕. Explora mi trabajo y contacta para colaboraciones.*
+[![Portafolio](https://img.shields.io/badge/Portafolio-171512?style=flat-square)](https://www.parzkeys.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-171512?style=flat-square)](https://github.com/dhait0)
+[![Email](https://img.shields.io/badge/Email-171512?style=flat-square)](mailto:sebascamargo39@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-171512?style=flat-square)](https://instagram.com/no4uth_keys)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-171512?style=flat-square)](https://www.linkedin.com/in/sebastian-camargo-a823b6322)
