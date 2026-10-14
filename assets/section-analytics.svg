@@ -1,34 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Sección ACTIVIDAD · GitHub Analytics</title>
-  <desc id="desc">Encabezado de la sección GitHub Analytics del perfil de dhait0. Diseño oscuro con acentos cyan, azul y violeta.</desc>
-  <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#36D9EE"/><stop offset=".52" stop-color="#70ACFF"/><stop offset="1" stop-color="#B39AFF"/>
-    </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#36D9EE"/><stop offset=".5" stop-color="#70ACFF"/><stop offset="1" stop-color="#B39AFF"/>
-    </linearGradient>
-    <radialGradient id="glow"><stop stop-color="#6457B8" stop-opacity=".18"/><stop offset="1" stop-color="#6457B8" stop-opacity="0"/></radialGradient>
-    <radialGradient id="cyan-glow"><stop stop-color="#18B8D4" stop-opacity=".10"/><stop offset="1" stop-color="#18B8D4" stop-opacity="0"/></radialGradient>
-    <clipPath id="bounds"><rect x="0.5" y="0.5" width="1199" height="119" rx="22" fill="white"/></clipPath>
-  </defs>
-  <g clip-path="url(#bounds)">
-    <rect x="0" y="0" width="1200" height="120" fill="#0D1117"/>
-    <ellipse cx="1140" cy="60" rx="420" ry="120" fill="url(#glow)"/>
-    <ellipse cx="20" cy="120" rx="640" ry="110" fill="url(#cyan-glow)"/>
-    <rect x="32" y="0" width="1136" height="3" rx="1" fill="url(#accent)"/>
-    <text x="48" y="30" font-family="apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#36D9EE">04 / ACTIVIDAD</text>
-    <text x="48" y="74" font-family="apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="34" font-weight="700" fill="#E6EDF3">GitHub Analytics</text>
-    <line x1="48" y1="92" x2="420" y2="92" stroke="#30363D" stroke-width="1"/>
-    <circle cx="440" cy="92" r="3" fill="#36D9EE"/>
-    <circle cx="472" cy="92" r="2" fill="#70ACFF" opacity=".7"/>
-    <circle cx="498" cy="92" r="1.5" fill="#B39AFF" opacity=".5"/>
-    <g stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="1030,86 1052,70 1074,80 1096,54 1118,66 1140,40 1162,50" stroke="url(#line)"/>
-      <circle cx="1030" cy="86" r="3" fill="#36D9EE" stroke="none"/>
-      <circle cx="1096" cy="54" r="3" fill="#70ACFF" stroke="none"/>
-      <circle cx="1162" cy="50" r="3" fill="#B39AFF" stroke="none"/>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Analytics</title>
+  <desc id="desc">actividad · repositorios · contribuciones</desc>
+  <rect width="1200" height="120" rx="18" fill="#0D0D0C"/>
+  <rect x="1.5" y="1.5" width="1197" height="117" rx="16.5" fill="none" stroke="#332C25" stroke-width="3"/>
+  <rect x="28" y="26" width="116" height="28" rx="14" fill="#201C18" stroke="#332C25"/>
+  <text x="46" y="45" fill="#E8A06A" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-weight="700">04 / ACTIVIDAD</text>
+  <text x="28" y="88" fill="#F2EEE8" font-size="34" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="750">GitHub Analytics</text>
+  <text x="420" y="88" fill="#B9AEA2" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">actividad · repositorios · contribuciones</text>
+  <path d="M28 104H930" stroke="#332C25" stroke-width="2"/>
+  <circle cx="930" cy="104" r="4" fill="#D97745"/>
+  <circle cx="946" cy="104" r="3" fill="#F2C078"/>
+  
+        <path d="M1006 92h78" stroke="#8C7564" stroke-width="2"/>
+        <path d="M1014 82l18-16 16 8 18-30 14 12" fill="none" stroke="#D97745" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="1014" cy="82" r="4" fill="#F2C078"/>
+        <circle cx="1032" cy="66" r="4" fill="#E8A06A"/>
+        <circle cx="1048" cy="74" r="4" fill="#D97745"/>
+        <circle cx="1066" cy="44" r="4" fill="#F2C078"/>
+        
 </svg>
