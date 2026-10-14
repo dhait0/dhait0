@@ -138,9 +138,18 @@ Demo bilingüe de Jenkins, Docker y Linux que muestra un pipeline CI/CD para un 
 `Bitwarden` · `Power BI` · `Notion` · `Prezi` · `Figma` · `Canva` · `Adobe Premiere Pro` · `Adobe Lightroom` · `Adobe Photoshop` · `Adobe Illustrator` · `Adobe Creative Cloud`
 </details>
 
-## Actividad de GitHub
-![Stats](assets/stats.svg)
-[Ver mi perfil de GitHub](https://github.com/dhait0)
+## GitHub Analytics
+
+<p align="center">
+  <img
+    src="assets/metrics.svg"
+    alt="Métricas de actividad de GitHub de Sebastián Camargo"
+    width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/dhait0">Ver actividad completa en GitHub</a>
+</p>
 
 ## Contacto
 [![Website](https://img.shields.io/badge/-ParzKeys-00FFFF?logo=google-chrome&logoColor=white&style=for-the-badge)](https://www.parzkeys.com/)
