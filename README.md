@@ -89,7 +89,15 @@ Demo bilingüe de Jenkins, Docker y Linux para construir, probar, empaquetar, re
 ![Docker](https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=60A5FA)
 ![Jenkins](https://img.shields.io/badge/Jenkins-161B22?style=flat-square&logo=jenkins&logoColor=A78BFA)
 ![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=E6EDF3)
-<img src="https://img.shields.io/badge/-Proxmox-EE4C2C?logo=proxmox&logoColor=white&style=for-the-badge" alt="Proxmox">
+
+### Infraestructura y entornos empresariales
+
+![Proxmox](https://img.shields.io/badge/Proxmox-161B22?style=flat-square&logo=proxmox&logoColor=22D3EE)
+![Windows](https://img.shields.io/badge/Windows-161B22?style=flat-square&logo=windows11&logoColor=60A5FA)
+
+**Virtualización** · **Redes** · **Administración básica de servidores**
+
+**Microsoft 365** · **Active Directory** · **SharePoint**
 
 ### Otras herramientas de mi stack
 <details>
