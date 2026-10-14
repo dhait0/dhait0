@@ -21,3 +21,15 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_display: regular
           config_output: svg
+          config_animations: no
+          extras_css: |
+            /* GitHub Metrics - warm palette overrides */
+            h1, h2 { color: #F2EEE8; }
+            svg { color: #B9AEA2; }
+            .field svg { fill: #8C7564; }
+            footer { color: #8C7564; }
+            .calendar rect[fill="#ebedf0"] { fill: #14110E; }
+            .calendar rect[fill="#9be9a8"] { fill: #332C25; }
+            .calendar rect[fill="#40c463"] { fill: #40352C; }
+            .calendar rect[fill="#30a14e"] { fill: #8C7564; }
+            .calendar rect[fill="#216e39"] { fill: #D97745; }
