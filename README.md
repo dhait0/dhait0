@@ -44,39 +44,41 @@ y servicios de IA, y participo en el despliegue y la operación de aplicaciones.
 ## Proyectos destacados
 
 ### WebKitsunova Proyecto
-Aplicación full‑stack unificada (único repositorio, único proceso y único despliegue) construida sobre Next.js 16 con App Router y React 19. Autenticación con Supabase Auth + @supabase/ssr (cookies httpOnly, sin token en localStorage), datos en PostgreSQL/Supabase con Prisma, estilos con Tailwind CSS y pruebas con Vitest + Testing Library. Incluye server components, server actions, guards de autorización en Node runtime (USER, PSYCHOLOGIST, ADMIN), MFA, registro público, migraciones con Supabase CLI y despliegue en Vercel; entorno local con Docker Compose + Postgres 16 y hot reload.
-- **Stack real**: Next.js 16, React 19, TypeScript, Prisma 5, Supabase (Auth + SSR), Tailwind CSS 3, Vitest 2, Docker, PostgreSQL 16
-- **Enlace**: https://github.com/dhait0/webkitsunova-proyecto
+
+Aplicación full‑stack unificada (único repositorio, único proceso y único despliegue) sobre Next.js 16 con App Router y React 19. Autenticación con Supabase Auth + @supabase/ssr (cookies httpOnly), datos en PostgreSQL/Supabase con Prisma y pruebas con Vitest + Testing Library.
+
+**Aspectos técnicos**
+- Server components y server actions; guards de autorización en Node runtime (USER, PSYCHOLOGIST, ADMIN)
+- MFA, registro público, migraciones con Supabase CLI y despliegue en Vercel
+- Entorno local con Docker Compose + Postgres 16 y hot reload
+
+**Stack:** Next.js 16 · React 19 · TypeScript · Prisma 5 · Supabase (Auth + SSR) · Tailwind CSS 3 · Vitest 2 · Docker · PostgreSQL 16
+
+[Ver código](https://github.com/dhait0/webkitsunova-proyecto)
 
 ### Nexus n8n Workflow Kit
 
-Colección de cuatro workflows importables de n8n (JSON) para demostrar patrones de automatización empresarial: enrutamiento de incidentes por webhook, ingestión de riesgo de proveedores con clasificación por tier, revisión de contenido con puerta de aprobación humana, y sincronización de ciclo de vida de usuarios tipo Microsoft Graph disparada por programador. Incluye payloads de demostración, script local de validación que comprueba estructura, conexiones, IDs de nodos y ausencia de credenciales embebidas, y entorno Docker con n8n 2.29.7 para importar y previsualizar los flujos sin exponerlos. Documentación bilingüe (inglés/español); todos los flujos llevan traducción bilingüe en sus respuestas.
+Colección de cuatro workflows importables de n8n (JSON) para demostrar patrones de automatización empresarial: enrutamiento de incidentes, riesgo de proveedores, revisión con puerta humana y sincronización tipo Microsoft Graph. Incluye payloads demo, validador local y entorno Docker para previsualizar sin exponer los flujos.
 
 **Aspectos técnicos**
-- Cuatro workflows JSON importables: Incident Triage Router, Vendor Risk Intake, AI Review Human Gate, Graph User Lifecycle Sync
 - Nodos verificados: Webhook, Code, IF, HTTP Request, Respond to Webhook, Schedule Trigger
-- Sin credenciales embebidas en nodos ni workflow (validado por script); placeholders `$env.MOCK_*` y dominios `example.invalid`
-- Script local `scripts/validate-workflows.mjs` para validar estructura, conexiones, IDs de nodos y seguridad de credenciales
-- Docker Compose con n8nio/n8n:2.29.7 (workflows y samples montados de solo lectura) para importar y previsualizar
-- Documentación bilingüe y payloads de demostración en `samples/`
+- Sin credenciales embebidas (validado por script); placeholders `$env.MOCK_*` y dominios `example.invalid`
+- Script local `scripts/validate-workflows.mjs` y Docker Compose con n8n 2.29.7
 
-**Stack:** n8n (workflow JSON, formato de importación 2.x), Node.js (scripts de validación), Docker (entorno de previsualización), Prettier, Husky, lint-staged
+**Stack:** n8n (workflow JSON 2.x) · Node.js · Docker · Prettier · Husky · lint-staged
 
 [Ver código](https://github.com/dhait0/nexus-n8n-workflow-kit)
 
 ### Forge CI Deploy Pipeline
 
-Demo bilingüe de Jenkins, Docker y Linux que muestra un pipeline CI/CD para un servicio TypeScript mock: checkout, install, quality gate (lint + build en paralelo), tests, imagen Docker multi-stage, smoke test con Docker Compose y script de rollback simulado. El servicio HTTP de TypeScript expone endpoints de salud (`/health`) y metadatos de release (`/release`); el smoke test los valida con curl y el healthcheck del compose usa `wget`. Incluye script Linux de preflight y archivado de artefactos al finalizar el pipeline.
+Demo bilingüe de Jenkins, Docker y Linux con pipeline CI/CD para un servicio TypeScript mock: quality gate, imagen Docker multi‑stage, smoke test con Docker Compose y script de rollback simulado. El servicio expone endpoints de salud (`/health`) y metadatos de release (`/release`).
 
 **Aspectos técnicos**
-- Pipeline declarativo de Jenkins con stages: Checkout, Install, Quality Gate (Lint + Build), Test, Docker Image, Smoke Test
-- Docker multi-stage (node:22-alpine: dependencies → build → runtime, EXPOSE 4020)
-- Docker Compose con healthcheck (`wget -qO- /health`, interval 10s, retries 5)
-- Servicio TypeScript HTTP con endpoints `/health` y `/release`
-- Scripts: `smoke-test.sh` (curl a health y release), `rollback.sh` (simulado), `linux-preflight.sh`
-- Tests con `node --test`, ESLint, Prettier, Husky, lint-staged
+- Pipeline declarativo de Jenkins: Checkout, Install, Quality Gate (Lint + Build), Test, Docker Image, Smoke Test
+- Docker multi‑stage (node:22-alpine) y Docker Compose con healthcheck (`wget /health`)
+- Scripts: `smoke-test.sh`, `rollback.sh` (simulado), `linux-preflight.sh`
 
-**Stack:** Node.js, TypeScript, Jenkins, Docker, Docker Compose, Linux Bash, ESLint, Prettier, Husky
+**Stack:** Node.js · TypeScript · Jenkins · Docker · Docker Compose · Linux Bash · ESLint · Prettier · Husky
 
 [Ver código](https://github.com/dhait0/forge-ci-deploy-pipeline)
 
@@ -144,7 +146,7 @@ Demo bilingüe de Jenkins, Docker y Linux que muestra un pipeline CI/CD para un 
   <img
     src="assets/metrics.svg"
     alt="Métricas de actividad de GitHub de Sebastián Camargo"
-    width="100%">
+    width="85%">
 </p>
 
 <p align="center">
@@ -152,11 +154,12 @@ Demo bilingüe de Jenkins, Docker y Linux que muestra un pipeline CI/CD para un 
 </p>
 
 ## Contacto
-[![Website](https://img.shields.io/badge/-ParzKeys-00FFFF?logo=google-chrome&logoColor=white&style=for-the-badge)](https://www.parzkeys.com/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=for-the-badge)](https://github.com/dhait0)
-[![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:sebascamargo39@gmail.com)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge)](https://instagram.com/no4uth_keys)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/sebastian-camargo-a823b6322)
+
+[![Website](https://img.shields.io/badge/ParzKeys-00FFFF?style=flat-square&logo=google-chrome&logoColor=000000)](https://www.parzkeys.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=22D3EE)](https://github.com/dhait0)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=00A4E4)](mailto:sebascamargo39@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=772424)](https://instagram.com/no4uth_keys)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=0077B5)](https://www.linkedin.com/in/sebastian-camargo-a823b6322)
 
 ---
 *Hecho con ❤️ y ☕. Explora mi trabajo y contacta para colaboraciones.*
