@@ -65,9 +65,20 @@ Colección de cuatro workflows importables de n8n (JSON) para demostrar patrones
 [Ver código](https://github.com/dhait0/nexus-n8n-workflow-kit)
 
 ### Forge CI Deploy Pipeline
-Demo bilingüe de Jenkins, Docker y Linux para construir, probar, empaquetar, realizar pruebas de humo y simular rollback de un servicio TypeScript mock. Muestra un pipeline declarativo de Jenkins, builds Docker multi‑stage, pruebas de humo con Docker Compose y scripts de preflight Linux.
-- **Stack real**: Node.js, TypeScript, Jenkins, Docker, Linux
-- **Enlace**: https://github.com/dhait0/forge-ci-deploy-pipeline
+
+Demo bilingüe de Jenkins, Docker y Linux que muestra un pipeline CI/CD para un servicio TypeScript mock: checkout, install, quality gate (lint + build en paralelo), tests, imagen Docker multi-stage, smoke test con Docker Compose y script de rollback simulado. El servicio HTTP de TypeScript expone endpoints de salud (`/health`) y metadatos de release (`/release`); el smoke test los valida con curl y el healthcheck del compose usa `wget`. Incluye script Linux de preflight y archivado de artefactos al finalizar el pipeline.
+
+**Aspectos técnicos**
+- Pipeline declarativo de Jenkins con stages: Checkout, Install, Quality Gate (Lint + Build), Test, Docker Image, Smoke Test
+- Docker multi-stage (node:22-alpine: dependencies → build → runtime, EXPOSE 4020)
+- Docker Compose con healthcheck (`wget -qO- /health`, interval 10s, retries 5)
+- Servicio TypeScript HTTP con endpoints `/health` y `/release`
+- Scripts: `smoke-test.sh` (curl a health y release), `rollback.sh` (simulado), `linux-preflight.sh`
+- Tests con `node --test`, ESLint, Prettier, Husky, lint-staged
+
+**Stack:** Node.js, TypeScript, Jenkins, Docker, Docker Compose, Linux Bash, ESLint, Prettier, Husky
+
+[Ver código](https://github.com/dhait0/forge-ci-deploy-pipeline)
 
 ## Tecnologías y herramientas
 
