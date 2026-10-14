@@ -1,15 +1,29 @@
-# Sebastián Camargo
+<h1 align="center">Sebastián Camargo</h1>
 
-![Hero](assets/hero.svg)
+<p align="center">
+  <strong>Desarrollador Full Stack Junior</strong><br>
+  Automatización e integraciones de APIs y servicios de IA
+</p>
 
-**Desarrollador Full Stack Junior**
-Automatización e integraciones de APIs y servicios de IA
+<p align="center">
+  Desarrollo aplicaciones, conecto servicios y automatizo procesos.
+</p>
 
-Desarrollo aplicaciones, conecto servicios y automatizo procesos.
+<p align="center">
+  <img
+    src="assets/hero.svg"
+    alt="Especialidades: desarrollo Full Stack, automatización e integraciones"
+    width="960"
+  >
+</p>
 
-Portafolio: https://www.parzkeys.com/
-GitHub: https://github.com/dhait0
-Contacto: mailto:sebascamargo39@gmail.com
+<p align="center">
+  <a href="https://www.parzkeys.com/">Portafolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/dhait0">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:sebascamargo39@gmail.com">Contacto</a>
+</p>
 
 ## Sobre mí
 
