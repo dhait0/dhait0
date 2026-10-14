@@ -16,7 +16,12 @@
   <a href="mailto:sebascamargo39@gmail.com">Contacto</a>
 </p>
 
-## Sobre mí
+<picture>
+  <img
+    src="assets/section-profile.svg"
+    alt="Sobre mí"
+    width="100%">
+</picture>
 
 Soy Sebastián Camargo, desarrollador Full Stack Junior enfocado en la automatización de procesos empresariales y la integración de APIs y servicios de inteligencia artificial.
 
@@ -41,7 +46,12 @@ y servicios de IA, y participo en el despliegue y la operación de aplicaciones.
     width="1200">
 </picture>
 
-## Proyectos destacados
+<picture>
+  <img
+    src="assets/section-projects.svg"
+    alt="Proyectos destacados"
+    width="100%">
+</picture>
 
 ### WebKitsunova Proyecto
 
@@ -82,7 +92,12 @@ Demo bilingüe de Jenkins, Docker y Linux con pipeline CI/CD para un servicio Ty
 
 [Ver código](https://github.com/dhait0/forge-ci-deploy-pipeline)
 
-## Tecnologías y herramientas
+<picture>
+  <img
+    src="assets/section-stack.svg"
+    alt="Tecnologías y herramientas"
+    width="100%">
+</picture>
 
 ### Frontend
 
@@ -140,7 +155,12 @@ Demo bilingüe de Jenkins, Docker y Linux con pipeline CI/CD para un servicio Ty
 `Bitwarden` · `Power BI` · `Notion` · `Prezi` · `Figma` · `Canva` · `Adobe Premiere Pro` · `Adobe Lightroom` · `Adobe Photoshop` · `Adobe Illustrator` · `Adobe Creative Cloud`
 </details>
 
-## GitHub Analytics
+<picture>
+  <img
+    src="assets/section-analytics.svg"
+    alt="GitHub Analytics"
+    width="100%">
+</picture>
 
 <p align="center">
   <img
@@ -153,7 +173,12 @@ Demo bilingüe de Jenkins, Docker y Linux con pipeline CI/CD para un servicio Ty
   <a href="https://github.com/dhait0">Ver actividad completa en GitHub</a>
 </p>
 
-## Contacto
+<picture>
+  <img
+    src="assets/section-contact.svg"
+    alt="Contacto"
+    width="100%">
+</picture>
 
 [![Website](https://img.shields.io/badge/ParzKeys-00FFFF?style=flat-square&logo=google-chrome&logoColor=000000)](https://www.parzkeys.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=22D3EE)](https://github.com/dhait0)
