@@ -70,7 +70,12 @@ Demo bilingüe de Jenkins, Docker y Linux para construir, probar, empaquetar, re
 ![Node.js](https://img.shields.io/badge/Node.js-161B22?style=flat-square&logo=nodedotjs&logoColor=22D3EE)
 ![NestJS](https://img.shields.io/badge/NestJS-161B22?style=flat-square&logo=nestjs&logoColor=60A5FA)
 ![Prisma ORM](https://img.shields.io/badge/Prisma_ORM-161B22?style=flat-square&logo=prisma&logoColor=A78BFA)
-<img src="https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" alt="PostgreSQL">
+
+### Bases de datos
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=22D3EE)
+![MySQL](https://img.shields.io/badge/MySQL-161B22?style=flat-square&logo=mysql&logoColor=60A5FA)
+![SQL Server](https://img.shields.io/badge/SQL_Server-161B22?style=flat-square&logo=microsoftsqlserver&logoColor=A78BFA)
 <img src="https://img.shields.io/badge/-n8n-00A6FB?logo=n8n&logoColor=white&style=for-the-badge" alt="n8n">
 <img src="https://img.shields.io/badge/-REST%20API-000000?logo=api&logoColor=white&style=for-the-badge" alt="REST API">
 <img src="https://img.shields.io/badge/-AI-FF6F00?style=for-the-badge" alt="AI">
