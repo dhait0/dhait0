@@ -82,10 +82,13 @@ Demo bilingüe de Jenkins, Docker y Linux para construir, probar, empaquetar, re
 ![n8n](https://img.shields.io/badge/n8n-161B22?style=flat-square&logo=n8n&logoColor=22D3EE)
 
 **Integración de APIs** · **Servicios de IA**
-<img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge" alt="Git">
-<img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" alt="Docker">
-<img src="https://img.shields.io/badge/-Jenkins-D24939?logo=jenkins&logoColor=white&style=for-the-badge" alt="Jenkins">
-<img src="https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=white&style=for-the-badge" alt="Linux">
+
+### DevOps
+
+![Git](https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=22D3EE)
+![Docker](https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=60A5FA)
+![Jenkins](https://img.shields.io/badge/Jenkins-161B22?style=flat-square&logo=jenkins&logoColor=A78BFA)
+![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=E6EDF3)
 <img src="https://img.shields.io/badge/-Proxmox-EE4C2C?logo=proxmox&logoColor=white&style=for-the-badge" alt="Proxmox">
 
 ### Otras herramientas de mi stack
