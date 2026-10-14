@@ -44,8 +44,8 @@ y servicios de IA, y participo en el despliegue y la operación de aplicaciones.
 ## Proyectos destacados
 
 ### WebKitsunova Proyecto
-Aplicación full‑stack unificada construida sobre Next.js 16 (App Router), React 19, Prisma, Supabase, Tailwind CSS y Vitest. Incluye server components, server actions, autenticación HTTP‑only mediante Supabase, pruebas con Vitest y despliegue local con Docker Compose y Postgres.
-- **Stack real**: Next.js, React, TypeScript, Prisma, Supabase, Tailwind, Vitest, Docker
+Aplicación full‑stack unificada (único repositorio, único proceso y único despliegue) construida sobre Next.js 16 con App Router y React 19. Autenticación con Supabase Auth + @supabase/ssr (cookies httpOnly, sin token en localStorage), datos en PostgreSQL/Supabase con Prisma, estilos con Tailwind CSS y pruebas con Vitest + Testing Library. Incluye server components, server actions, guards de autorización en Node runtime (USER, PSYCHOLOGIST, ADMIN), MFA, registro público, migraciones con Supabase CLI y despliegue en Vercel; entorno local con Docker Compose + Postgres 16 y hot reload.
+- **Stack real**: Next.js 16, React 19, TypeScript, Prisma 5, Supabase (Auth + SSR), Tailwind CSS 3, Vitest 2, Docker, PostgreSQL 16
 - **Enlace**: https://github.com/dhait0/webkitsunova-proyecto
 
 ### Nexus n8n Workflow Kit
