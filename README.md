@@ -1,21 +1,12 @@
-<h1 align="center">Sebastián Camargo</h1>
-
-<p align="center">
-  <strong>Desarrollador Full Stack Junior</strong><br>
-  Automatización e integraciones de APIs y servicios de IA
-</p>
-
-<p align="center">
-  Desarrollo aplicaciones, conecto servicios y automatizo procesos.
-</p>
-
-<p align="center">
+<picture>
+  <source
+    media="(max-width: 640px)"
+    srcset="assets/hero-mobile.svg">
   <img
     src="assets/hero.svg"
-    alt="Especialidades: desarrollo Full Stack, automatización e integraciones"
-    width="960"
-  >
-</p>
+    alt="Sebastián Camargo, desarrollador Full Stack Junior. Automatización e integraciones de APIs y servicios de IA."
+    width="1200">
+</picture>
 
 <p align="center">
   <a href="https://www.parzkeys.com/">Portafolio</a>

@@ -1,44 +1,19 @@
-<svg width="960" height="160" viewBox="0 0 960 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Banner de Sebastián Camargo: Full Stack, Automatización e Integraciones">
-  <rect width="960" height="160" fill="#0D1117" stroke="#30363D" stroke-width="2"/>
-
-  <!-- Conexiones sutiles entre módulos -->
-  <line x1="320" y1="80" x2="360" y2="80" stroke="#30363D" stroke-width="2"/>
-  <line x1="600" y1="80" x2="640" y2="80" stroke="#30363D" stroke-width="2"/>
-
-  <!-- Módulo 1: Full Stack -->
-  <g>
-    <rect x="40" y="30" width="240" height="100" rx="12" fill="#161B22" stroke="#22D3EE" stroke-width="1.5"/>
-    <circle cx="80" cy="60" r="6" fill="#22D3EE"/>
-    <circle cx="100" cy="60" r="6" fill="#60A5FA"/>
-    <circle cx="120" cy="60" r="6" fill="#A78BFA"/>
-    <line x1="80" y1="80" x2="120" y2="80" stroke="#22D3EE" stroke-width="2"/>
-    <line x1="80" y1="80" x2="100" y2="100" stroke="#60A5FA" stroke-width="2"/>
-    <line x1="100" y1="100" x2="120" y2="80" stroke="#A78BFA" stroke-width="2"/>
-    <text x="160" y="108" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#E6EDF3">Full Stack</text>
-  </g>
-
-  <!-- Módulo 2: Automatización -->
-  <g>
-    <rect x="360" y="30" width="240" height="100" rx="12" fill="#161B22" stroke="#60A5FA" stroke-width="1.5"/>
-    <rect x="400" y="55" width="60" height="50" rx="6" fill="none" stroke="#60A5FA" stroke-width="2"/>
-    <polyline points="415,80 430,80 435,70 445,90 455,65 460,80" fill="none" stroke="#E6EDF3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="470" cy="60" r="5" fill="#A78BFA"/>
-    <circle cx="485" cy="60" r="5" fill="#22D3EE"/>
-    <text x="440" y="108" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#E6EDF3">Automatización</text>
-  </g>
-
-  <!-- Módulo 3: Integraciones -->
-  <g>
-    <rect x="640" y="30" width="280" height="100" rx="12" fill="#161B22" stroke="#A78BFA" stroke-width="1.5"/>
-    <circle cx="680" cy="60" r="7" fill="none" stroke="#22D3EE" stroke-width="2"/>
-    <circle cx="680" cy="60" r="3" fill="#22D3EE"/>
-    <circle cx="720" cy="60" r="7" fill="none" stroke="#60A5FA" stroke-width="2"/>
-    <circle cx="720" cy="60" r="3" fill="#60A5FA"/>
-    <circle cx="760" cy="60" r="7" fill="none" stroke="#A78BFA" stroke-width="2"/>
-    <circle cx="760" cy="60" r="3" fill="#A78BFA"/>
-    <line x1="687" y1="67" x2="713" y2="53" stroke="#E6EDF3" stroke-width="1.5"/>
-    <line x1="727" y1="67" x2="753" y2="53" stroke="#E6EDF3" stroke-width="1.5"/>
-    <text x="720" y="108" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#E6EDF3">Integraciones</text>
-  </g>
-
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Sebastián Camargo | Desarrollo Full Stack, automatización e integraciones</title>
+<desc id="desc">Portafolio de dhait0. Desarrollador Full Stack Junior. Desarrollo de aplicaciones, automatización de procesos e integraciones de APIs y servicios de IA. Diseño oscuro con acentos cyan, azul y violeta.</desc>
+<defs>
+  <linearGradient id="base" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#0D1117"/><stop offset=".56" stop-color="#0E1521"/><stop offset="1" stop-color="#141B2D"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#36D9EE"/><stop offset=".52" stop-color="#70ACFF"/><stop offset="1" stop-color="#B39AFF"/></linearGradient>
+  <linearGradient id="flow" x1="0" y1="0" x2="0" y2="232" gradientUnits="userSpaceOnUse"><stop stop-color="#36D9EE"/><stop offset=".5" stop-color="#70ACFF"/><stop offset="1" stop-color="#B39AFF"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#6457B8" stop-opacity=".18"/><stop offset="1" stop-color="#6457B8" stop-opacity="0"/></radialGradient>
+  <radialGradient id="cyan-glow"><stop stop-color="#18B8D4" stop-opacity=".10"/><stop offset="1" stop-color="#18B8D4" stop-opacity="0"/></radialGradient>
+  <clipPath id="bounds"><rect x="0.5" y="0.5" width="1199" height="359" rx="22" fill="white"/></clipPath>
+</defs>
+<style>
+      .trace {stroke-dasharray: 232; stroke-dashoffset: 0; animation: connect 3.8s ease-out 1;}
+      @keyframes connect {from {stroke-dashoffset: 232;} to {stroke-dashoffset: 0;}}
+      @media (prefers-reduced-motion: reduce) {.trace {animation: none;}}
+    </style>
+<g clip-path="url(#bounds)"><rect x="0" y="0" width="1200" height="360" rx="0" fill="url(#base)"/><ellipse cx="1140" cy="180.0" rx="468.0" ry="306.0" fill="url(#glow)"/><ellipse cx="20" cy="360" rx="720.0" ry="251.99999999999997" fill="url(#cyan-glow)"/><path d="M720 0L720 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M760 0L760 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M800 0L800 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M840 0L840 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M880 0L880 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M920 0L920 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M960 0L960 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M1000 0L1000 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M1040 0L1040 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M1080 0L1080 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M1120 0L1120 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M1160 0L1160 360" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M730 0H1200" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M730 40H1200" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M730 80H1200" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M730 120H1200" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M730 160H1200" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M730 200H1200" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M730 240H1200" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M730 280H1200" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><path d="M730 320H1200" stroke="#7483A8" stroke-width="0.6" opacity=".055"/><rect x="32" y="0" width="1136" height="3" rx="1" fill="url(#accent)"/><text x="48" y="49" font-size="21" fill="#36D9EE" font-weight="600" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">//</text><text x="88" y="48" font-size="19" fill="#BDC9D9" font-weight="600" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">dhait0</text><path d="M172 33L172 51" stroke="#3B485F" stroke-width="1"/><text x="192" y="47" font-size="12" fill="#91A2B8" font-weight="600" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" letter-spacing="1.8">DESARROLLO + AUTOMATIZACIÓN</text><text x="45" y="133" font-size="64" fill="#F0F5FC" font-weight="750" font-family="Inter, 'Segoe UI', Arial, sans-serif" letter-spacing="-2.5">Sebastián Camargo</text><text x="48" y="178" font-size="26" fill="#BDC9D9" font-weight="500" font-family="Inter, 'Segoe UI', Arial, sans-serif" letter-spacing="-0.35">Desarrollador Full Stack Junior</text><text x="48" y="219" font-size="21" fill="#BDC9D9" font-weight="400" font-family="Inter, 'Segoe UI', Arial, sans-serif">Desarrollo aplicaciones, conecto servicios</text><text x="48" y="249" font-size="21" fill="#BDC9D9" font-weight="400" font-family="Inter, 'Segoe UI', Arial, sans-serif">y automatizo procesos.</text><path d="M48 284H733" stroke="#273449" stroke-width="1"/><text x="48" y="321" font-size="15" fill="#91A2B8" font-weight="500" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace">React · TypeScript · NestJS · n8n</text><text x="733" y="321" font-size="16" fill="#36D9EE" font-weight="500" font-family="Inter, 'Segoe UI', Arial, sans-serif" text-anchor="end">parzkeys.com</text><rect x="782" y="30" width="388" height="300" rx="19" fill="#0B1220" stroke="#28354C"/><rect x="783" y="31" width="386" height="42" rx="18" fill="#121B2A"/><rect x="783" y="52" width="386" height="20" rx="0" fill="#121B2A"/><text x="807" y="56" font-size="11" fill="#91A2B8" font-weight="600" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" letter-spacing="1.2">DEL CÓDIGO AL PROCESO</text><g transform="translate(1126 41) scale(0.59375)" fill="none" stroke="#91A2B8" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M7 16h18m-7-7 7 7-7 7"/></g><path d="M783 73H1168" stroke="#28354C" stroke-width="1"/><g transform="translate(814 95)"><path d="M0 18V208" stroke="#2B3B53" stroke-width="2"/><path d="M0 18V208" stroke="url(#flow)" stroke-width="2" pathLength="232" class="trace"/></g><circle cx="814" cy="115" r="5" fill="#101A29" stroke="#36D9EE" stroke-width="2"/><rect x="836" y="92" width="42" height="42" rx="10" fill="#152032" stroke="#2A3950"/><g transform="translate(846 102) scale(0.6875)" fill="none" stroke="#36D9EE" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m10 9-6 7 6 7m12-14 6 7-6 7M19 6l-6 20"/></g><text x="893" y="114" font-size="20" fill="#F0F5FC" font-weight="600" font-family="Inter, 'Segoe UI', Arial, sans-serif">Desarrollar</text><text x="893" y="136" font-size="14" fill="#91A2B8" font-weight="400" font-family="Inter, 'Segoe UI', Arial, sans-serif">Frontend + backend</text><path d="M892 154H1142" stroke="#1F2C40" stroke-width="1"/><circle cx="814" cy="194" r="5" fill="#101A29" stroke="#70ACFF" stroke-width="2"/><rect x="836" y="171" width="42" height="42" rx="10" fill="#152032" stroke="#2A3950"/><g transform="translate(846 181) scale(0.6875)" fill="none" stroke="#70ACFF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5H8a3 3 0 0 0-3 3v4l-3 4 3 4v4a3 3 0 0 0 3 3h2M22 5h2a3 3 0 0 1 3 3v4l3 4-3 4v4a3 3 0 0 1-3 3h-2"/><circle cx="12" cy="16" r="1.2"/><circle cx="20" cy="16" r="1.2"/><path d="M13.5 16h5"/></g><text x="893" y="193" font-size="20" fill="#F0F5FC" font-weight="600" font-family="Inter, 'Segoe UI', Arial, sans-serif">Conectar</text><text x="893" y="215" font-size="14" fill="#91A2B8" font-weight="400" font-family="Inter, 'Segoe UI', Arial, sans-serif">APIs + servicios de IA</text><path d="M892 233H1142" stroke="#1F2C40" stroke-width="1"/><circle cx="814" cy="273" r="5" fill="#101A29" stroke="#B39AFF" stroke-width="2"/><rect x="836" y="250" width="42" height="42" rx="10" fill="#152032" stroke="#2A3950"/><g transform="translate(846 260) scale(0.6875)" fill="none" stroke="#B39AFF" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="21" y="21" width="8" height="8" rx="2"/><path d="M7 11v10a4 4 0 0 0 4 4h10M11 7h10a4 4 0 0 1 4 4v10"/><path d="m22 17 3 4 3-4"/></g><text x="893" y="272" font-size="20" fill="#F0F5FC" font-weight="600" font-family="Inter, 'Segoe UI', Arial, sans-serif">Automatizar</text><text x="893" y="294" font-size="14" fill="#91A2B8" font-weight="400" font-family="Inter, 'Segoe UI', Arial, sans-serif">Flujos de trabajo con n8n</text></g><rect x="0.5" y="0.5" width="1199" height="359" rx="22" fill="none" stroke="#2A3647"/>
 </svg>
