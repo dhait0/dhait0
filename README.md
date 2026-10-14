@@ -76,9 +76,12 @@ Demo bilingüe de Jenkins, Docker y Linux para construir, probar, empaquetar, re
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=22D3EE)
 ![MySQL](https://img.shields.io/badge/MySQL-161B22?style=flat-square&logo=mysql&logoColor=60A5FA)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-161B22?style=flat-square&logo=microsoftsqlserver&logoColor=A78BFA)
-<img src="https://img.shields.io/badge/-n8n-00A6FB?logo=n8n&logoColor=white&style=for-the-badge" alt="n8n">
-<img src="https://img.shields.io/badge/-REST%20API-000000?logo=api&logoColor=white&style=for-the-badge" alt="REST API">
-<img src="https://img.shields.io/badge/-AI-FF6F00?style=for-the-badge" alt="AI">
+
+### Automatización e integraciones
+
+![n8n](https://img.shields.io/badge/n8n-161B22?style=flat-square&logo=n8n&logoColor=22D3EE)
+
+**Integración de APIs** · **Servicios de IA**
 <img src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge" alt="Git">
 <img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge" alt="Docker">
 <img src="https://img.shields.io/badge/-Jenkins-D24939?logo=jenkins&logoColor=white&style=for-the-badge" alt="Jenkins">
