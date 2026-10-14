@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">WebKitsunova — Full Stack Application</title>
+  <desc id="desc">Proyecto WebKitsunova: aplicación full stack unificada con Next.js, Supabase y PostgreSQL.</desc>
+  <rect width="1200" height="180" rx="18" fill="#0D0D0C"/>
+  <rect x="1.5" y="1.5" width="1197" height="177" rx="16.5" fill="none" stroke="#332C25" stroke-width="3"/>
+  <rect x="28" y="26" width="132" height="28" rx="14" fill="#201C18" stroke="#332C25"/>
+  <text x="46" y="45" fill="#E8A06A" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-weight="700">PROJECT / 01</text>
+  <text x="28" y="96" fill="#F2EEE8" font-size="42" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="750">WebKitsunova</text>
+  <text x="28" y="128" fill="#B9AEA2" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">Full Stack Application</text>
+  <path d="M28 148H930" stroke="#332C25" stroke-width="2"/>
+  <circle cx="930" cy="148" r="4" fill="#D97745"/>
+  <circle cx="946" cy="148" r="3" fill="#F2C078"/>
+  <g stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="998" y="44" width="44" height="36" rx="6" stroke="#D97745"/>
+    <rect x="1058" y="44" width="44" height="36" rx="6" stroke="#E8A06A"/>
+    <rect x="1028" y="92" width="44" height="36" rx="6" stroke="#F2C078"/>
+    <path d="M1020 62h28M1080 62h28" stroke="#8C7564" stroke-width="2.5"/>
+    <path d="M1050 80v24" stroke="#8C7564" stroke-width="2.5"/>
+    <path d="M1020 62 1050 80 1028 110" stroke="#8C7564" stroke-width="2.5"/>
+    <path d="M1080 62 1050 80 1072 110" stroke="#8C7564" stroke-width="2.5"/>
+  </g>
+</svg>

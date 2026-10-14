@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Forge CI Deploy Pipeline — CI/CD Pipeline Demo</title>
+  <desc id="desc">Proyecto Forge: pipeline CI/CD con Jenkins, Docker y Linux para un servicio TypeScript.</desc>
+  <rect width="1200" height="180" rx="18" fill="#0D0D0C"/>
+  <rect x="1.5" y="1.5" width="1197" height="177" rx="16.5" fill="none" stroke="#332C25" stroke-width="3"/>
+  <rect x="28" y="26" width="132" height="28" rx="14" fill="#201C18" stroke="#332C25"/>
+  <text x="46" y="45" fill="#E8A06A" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-weight="700">PROJECT / 03</text>
+  <text x="28" y="96" fill="#F2EEE8" font-size="42" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="750">Forge CI Deploy Pipeline</text>
+  <text x="28" y="128" fill="#B9AEA2" font-size="18" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">CI/CD Pipeline Demo</text>
+  <path d="M28 148H930" stroke="#332C25" stroke-width="2"/>
+  <circle cx="930" cy="148" r="4" fill="#D97745"/>
+  <circle cx="946" cy="148" r="3" fill="#F2C078"/>
+  <g stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="988" y="52" width="36" height="36" rx="6" stroke="#D97745"/>
+    <rect x="1058" y="52" width="36" height="36" rx="6" stroke="#E8A06A"/>
+    <rect x="1128" y="52" width="36" height="36" rx="6" stroke="#F2C078"/>
+    <rect x="996" y="112" width="52" height="20" rx="10" stroke="#8C7564" stroke-width="2.5"/>
+    <path d="M1006 62h24M1076 62h24" stroke="#8C7564" stroke-width="2.5"/>
+    <path d="M1006 62 1006 112" stroke="#8C7564" stroke-width="2.5"/>
+    <path d="M1024 62 1024 112" stroke="#8C7564" stroke-width="2.5"/>
+    <path d="M1066 62 1066 112" stroke="#8C7564" stroke-width="2.5"/>
+    <path d="M1096 62 1096 112" stroke="#8C7564" stroke-width="2.5"/>
+    <path d="M1146 62 1146 112" stroke="#8C7564" stroke-width="2.5"/>
+    <path d="M1006 122h44" stroke="#8C7564" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M1024 62 1024 112" stroke="#8C7564" stroke-width="2.5"/>
+  </g>
+</svg>

@@ -53,7 +53,9 @@ y servicios de IA, y participo en el despliegue y la operación de aplicaciones.
     width="100%">
 </picture>
 
-### WebKitsunova Proyecto
+<picture>
+  <img src="assets/project-webkitsunova.svg" alt="WebKitsunova" width="100%">
+</picture>
 
 Aplicación full‑stack unificada (único repositorio, único proceso y único despliegue) sobre Next.js 16 con App Router y React 19. Autenticación con Supabase Auth + @supabase/ssr (cookies httpOnly), datos en PostgreSQL/Supabase con Prisma y pruebas con Vitest + Testing Library.
 
@@ -66,7 +68,9 @@ Aplicación full‑stack unificada (único repositorio, único proceso y único 
 
 [Ver código](https://github.com/dhait0/webkitsunova-proyecto)
 
-### Nexus n8n Workflow Kit
+<picture>
+  <img src="assets/project-nexus.svg" alt="Nexus n8n Workflow Kit" width="100%">
+</picture>
 
 Colección de cuatro workflows importables de n8n (JSON) para demostrar patrones de automatización empresarial: enrutamiento de incidentes, riesgo de proveedores, revisión con puerta humana y sincronización tipo Microsoft Graph. Incluye payloads demo, validador local y entorno Docker para previsualizar sin exponer los flujos.
 
@@ -79,7 +83,9 @@ Colección de cuatro workflows importables de n8n (JSON) para demostrar patrones
 
 [Ver código](https://github.com/dhait0/nexus-n8n-workflow-kit)
 
-### Forge CI Deploy Pipeline
+<picture>
+  <img src="assets/project-forge.svg" alt="Forge CI Deploy Pipeline" width="100%">
+</picture>
 
 Demo bilingüe de Jenkins, Docker y Linux con pipeline CI/CD para un servicio TypeScript mock: quality gate, imagen Docker multi‑stage, smoke test con Docker Compose y script de rollback simulado. El servicio expone endpoints de salud (`/health`) y metadatos de release (`/release`).
 
