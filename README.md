@@ -60,9 +60,10 @@ Demo bilingüe de Jenkins, Docker y Linux para construir, probar, empaquetar, re
 
 ## Tecnologías y herramientas
 
-### Stack principal
-<img src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=for-the-badge" alt="React">
-<img src="https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" alt="TypeScript">
+### Frontend
+
+![React](https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=22D3EE)
+![TypeScript](https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=60A5FA)
 <img src="https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=for-the-badge" alt="Node.js">
 <img src="https://img.shields.io/badge/-NestJS-E0234E?logo=nestjs&logoColor=white&style=for-the-badge" alt="NestJS">
 <img src="https://img.shields.io/badge/-Prisma-2D3748?logo=prisma&logoColor=white&style=for-the-badge" alt="Prisma">
