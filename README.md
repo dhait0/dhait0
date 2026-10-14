@@ -49,9 +49,20 @@ Aplicación full‑stack unificada (único repositorio, único proceso y único 
 - **Enlace**: https://github.com/dhait0/webkitsunova-proyecto
 
 ### Nexus n8n Workflow Kit
-Colección bilingüe de workflows importables de n8n para automatización empresarial, enrutamiento de incidentes, riesgo de proveedores, gobernanza de IA y sincronización tipo Microsoft Graph. Incluye placeholders seguros sin credenciales, validación local con Docker y documentación bilingüe.
-- **Stack real**: n8n (JSON), Docker (para validación), Node.js (scripts)
-- **Enlace**: https://github.com/dhait0/nexus-n8n-workflow-kit
+
+Colección de cuatro workflows importables de n8n (JSON) para demostrar patrones de automatización empresarial: enrutamiento de incidentes por webhook, ingestión de riesgo de proveedores con clasificación por tier, revisión de contenido con puerta de aprobación humana, y sincronización de ciclo de vida de usuarios tipo Microsoft Graph disparada por programador. Incluye payloads de demostración, script local de validación que comprueba estructura, conexiones, IDs de nodos y ausencia de credenciales embebidas, y entorno Docker con n8n 2.29.7 para importar y previsualizar los flujos sin exponerlos. Documentación bilingüe (inglés/español); todos los flujos llevan traducción bilingüe en sus respuestas.
+
+**Aspectos técnicos**
+- Cuatro workflows JSON importables: Incident Triage Router, Vendor Risk Intake, AI Review Human Gate, Graph User Lifecycle Sync
+- Nodos verificados: Webhook, Code, IF, HTTP Request, Respond to Webhook, Schedule Trigger
+- Sin credenciales embebidas en nodos ni workflow (validado por script); placeholders `$env.MOCK_*` y dominios `example.invalid`
+- Script local `scripts/validate-workflows.mjs` para validar estructura, conexiones, IDs de nodos y seguridad de credenciales
+- Docker Compose con n8nio/n8n:2.29.7 (workflows y samples montados de solo lectura) para importar y previsualizar
+- Documentación bilingüe y payloads de demostración en `samples/`
+
+**Stack:** n8n (workflow JSON, formato de importación 2.x), Node.js (scripts de validación), Docker (entorno de previsualización), Prettier, Husky, lint-staged
+
+[Ver código](https://github.com/dhait0/nexus-n8n-workflow-kit)
 
 ### Forge CI Deploy Pipeline
 Demo bilingüe de Jenkins, Docker y Linux para construir, probar, empaquetar, realizar pruebas de humo y simular rollback de un servicio TypeScript mock. Muestra un pipeline declarativo de Jenkins, builds Docker multi‑stage, pruebas de humo con Docker Compose y scripts de preflight Linux.
